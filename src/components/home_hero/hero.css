@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.hero {
+    position: relative;
+    background-image: url('../../assets/img/nature.jpeg');
+    background-size: 100% 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.content {
+    padding-top: 200px;
+    max-width: 800px;
+}
+.content h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500px;
+}
+.content h1 span {
+    font-size: 60px;
+    font-weight: 600px;
+}
+.animation {
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.animation h2 {
+    color: crimson;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.animation h2:nth-child(1) {
+    animation: text-move 10s infinite
+}
+
+@keyframes text-move {
+    0% {
+    margin-top: 0;
+    }
+
+    25% {
+    margin-top: -70px;
+    }
+    50% {
+    margin-top: -140px;
+    }
+    75% {
+    margin-top: -70px;
+    }
+    100% {
+    margin-top: 0px;
+    }
+}
+
+.btnn {
+    color: #ffff;
+    background-color: crimson;
+    font-size: 18px;
+    display: inline block;
+    font-weight: 600px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    transition: .5s ease;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: black;
+}  
+.btnd:hover {
+    background: #fff;
+    color: black;
+}  
+.icons {
+    color: #fff;
+    font-size: 26px;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+@media screen and (max-width:768px) {
+    .content h1 {
+        text-align: center;
+    }
+    .btnn {
+        margin-left: 270px;
+    }
+    .content h1 span {
+        font-size: 54px;
+    }
+    .animation {
+        text-align: center;
+    }
+    .icons {
+        margin-left: 270px;
+    }
+}
+@media screen and (max-width:620px) {
+    .content h1 {
+        font-size: 34px;
+    }
+    .content h1 span {
+        font-size: 46px;
+    }
+    .animation h2 {
+        font-size: 42px;
+    }
+    .btnn {
+        margin-left: 210px;
+    }
+    .icons {
+        margin-left: 210px;
+    }
+}
+@media screen and (max-width:540px) {
+    .btnn {
+        margin-left: 170px;
+    }
+    .icons {
+        margin-left: 170px;
+    }
+}
+@media screen and (max-width:500px) {
+    .content h1 {
+        font-size: 28px;
+    }
+    .content h1 span {
+        font-size: 40px;
+    }
+    .animation h2 {
+        font-size: 36px;
+    }
+    .btnn {
+        margin-left: 150px;
+    }
+    .icons {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:440px) {
+    .btnn {
+        display: none;
+    }
+    .hero {
+        height: 600px;
+    }
+    .icons {
+        position: relative;
+        top: -50px;
+        margin-left: 130px;
+    }
+}
+@media screen and (max-width:412px) {
+    .content h1 {
+        font-size: 24px;
+    }
+    .content h1 span {
+        font-size: 34px;
+    }
+    .animation h2 {
+        font-size: 32px;
+    }
+    .icons {
+        margin-left: 110px;
+    }
+}
+@media screen and (max-width:380px) {
+    .icons {
+        margin-left: 100px;
+    }
+}

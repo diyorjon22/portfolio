@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.site-contact {
+    width: 100%;
+    height: auto;
+    background: #000016;
+}
+.contentt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.roww {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contact-p {
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.boks {
+    padding-top: 100px;
+}
+.cardd {
+    background: #fff;
+    width: 240px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%) ;
+    border-radius: 10px;
+}
+.contact-icon {
+    color: crimson;
+    font-size: 60px;
+    text-align: center;
+    transition: transform .5s ease;
+}
+.cardd:hover {
+    transform: translateY(-10px);
+}
+.info h3 {
+    color: #111;
+    font-size: 20px;
+    font-weight: 700px;
+    margin: 10px;
+    text-align: center;
+}
+.info span {
+    color: #666;
+    font-weight: 500;
+}
+.contact-form {
+    background-color: #fff;
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+.contact-form p {
+    color: #111;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.input-box input,
+.input-box textarea {
+    color: #111;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    resize: none;
+}
+.bitien {
+    background-color: crimson;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+}
