@@ -22,7 +22,8 @@ const Skils = () => {
             <Link className="skills-btn">See More</Link>
           </div>
             <center>
-            <div class=" col-right reveal">
+              <div className="skils-web">
+              <div class=" col-right reveal">
             <div class="bar">
               <div class="info">
                 <span>HTML</span>
@@ -49,9 +50,10 @@ const Skils = () => {
                 <span>REACT</span>
                 <span>80%</span>
               </div>
-              <div class="line REACT"></div>
+              <div class="linee REACT"></div>
             </div>
           </div>
+              </div>
             </center>
         </div>
       </div>

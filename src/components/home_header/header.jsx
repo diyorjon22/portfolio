@@ -12,7 +12,7 @@ import { IoMdContact } from 'react-icons/io';
 const Header = () => {
     const [modal,setModal] = React.useState(false)
     return (
-        <header className='header' id='Home'>
+        <header className='header'>
             <div className='container'>
             <nav className='site-nav'>
             <p className='Logo'>DIYOR</p>
@@ -26,6 +26,7 @@ const Header = () => {
                 <Drawer anchor='right' open={modal} onClose={() => setModal(false)}>
                     <div className='modal-content'>
                     <button className='closeModal' onClick={() => setModal(false)}>x</button>
+                    <p className='Logo-modal'>DIYOR</p>
                     <div className='home_mod'>
                         <p><AiFillHome/></p>
                         <Link className='modal-content__link' to='/'>Home</Link>

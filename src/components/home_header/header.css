@@ -34,6 +34,14 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+.Logo-modal {
+    position: relative;
+    left: -20px;
+    color: #ffff;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
 .ul a {
     position: relative;
     text-decoration: none;
